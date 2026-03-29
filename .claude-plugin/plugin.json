@@ -1,0 +1,17 @@
+{
+  "name": "smartsale-crm",
+  "version": "1.0.0",
+  "description": "Connect your SmartSale CRM to Claude — manage leads, deals, tasks, quotes, appointments, and reports directly from Cowork.",
+  "author": {
+    "name": "absale",
+    "email": "itaisd@gmail.com",
+    "url": "https://absale.co.il"
+  },
+  "homepage": "https://github.com/absale/smartsale-cowork-plugin",
+  "repository": "https://github.com/absale/smartsale-cowork-plugin",
+  "license": "MIT",
+  "keywords": ["crm", "sales", "pipeline", "leads", "deals", "smartsale", "absale", "hebrew"],
+  "skills": "./skills",
+  "commands": "./commands",
+  "mcpServers": "./.mcp.json"
+}

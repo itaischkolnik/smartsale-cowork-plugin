@@ -1,0 +1,12 @@
+{
+  "mcpServers": {
+    "smartsale": {
+      "type": "http",
+      "url": "https://fdhgnsdkpghglrlgmeuo.supabase.co/functions/v1/mcp",
+      "headers": {
+        "Authorization": "Bearer ${SMARTSALE_API_TOKEN}"
+      },
+      "description": "SmartSale CRM — leads, deals, tasks, notes, products, quotes, appointments, expenses, and reports"
+    }
+  }
+}

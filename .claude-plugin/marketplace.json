@@ -1,0 +1,23 @@
+{
+  "$schema": "https://anthropic.com/claude-code/marketplace.schema.json",
+  "name": "absale-plugins",
+  "owner": {
+    "name": "absale",
+    "email": "itaisd@gmail.com"
+  },
+  "metadata": {
+    "description": "absale digital marketing agency plugins for Claude Cowork",
+    "version": "1.0.0"
+  },
+  "plugins": [
+    {
+      "name": "smartsale-crm",
+      "source": ".",
+      "description": "Connect your SmartSale CRM to Claude — manage leads, deals, tasks, quotes, appointments, and reports.",
+      "version": "1.0.0",
+      "author": { "name": "absale" },
+      "category": "crm",
+      "tags": ["crm", "sales", "pipeline", "leads", "deals", "smartsale"]
+    }
+  ]
+}
